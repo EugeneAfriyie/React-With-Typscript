@@ -1,25 +1,42 @@
-import React, { useRef } from 'react';
+import React from 'react'
 
-function MultipleInputs() {
-  const inputRefs = useRef([]);
-
-  const focusInput = (index) => {
-    inputRefs.current[index].focus();
-  };
-
-  return (
-    <div>
-      {[...Array(3)].map((_, i) => (
-        <input
-          key={i}
-          ref={(el) => (inputRefs.current[i] = el)}
-          placeholder={`Input ${i + 1}`}
-          type="text"
-        />
-      ))}
-      <button onClick={() => focusInput(1)}>Focus Input 2</button>
-    </div>
-  );
+type useData = {
+    username:string;
+    age:number;
+    email:string;
+    hobbies:string[];
 }
 
-export default MultipleInputs;
+type userinfoProp ={
+    userInfo: useData[]
+}
+
+const UserProfile: React.FC<userinfoProp> =({userInfo}) => {
+
+
+  return (
+   <>
+    <h1>UserProfile Info</h1>
+    <ul>
+     {   userInfo.map(({username,age,email,hobbies},index) =>(
+            <ul key={index}>
+                <li>UserName: {username}</li>
+            <li>Age: {age}</li>
+            <li>Email: {email}</li>
+            <li>{hobbies.map(item =>(
+                <ul>
+                    <li key={item}>item</li>
+                </ul>
+            ))}</li>
+            </ul>
+        ))}
+    </ul>
+
+    <br />
+    <br />
+    <br />
+   </>
+  )
+}
+
+export default UserProfile
