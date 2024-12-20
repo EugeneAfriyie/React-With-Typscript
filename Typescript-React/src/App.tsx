@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import {useState} from 'react'
 import UserProfile from './Components/UserProfile';
 import ContactForm from './Components/ContactForm';
+import Counter from './Components/Counter';
 
 const App = () => {
 
@@ -29,7 +30,9 @@ const App = () => {
     //   <UserProfile userInfo={userInfo} />
     // </div>
 
-    <ContactForm/>
+    // <ContactForm/>
+
+    <Counter/>
   )
 }
 
