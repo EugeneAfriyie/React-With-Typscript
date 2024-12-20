@@ -3,6 +3,7 @@ import {useState} from 'react'
 import UserProfile from './Components/UserProfile';
 import ContactForm from './Components/ContactForm';
 import Counter from './Components/Counter';
+import Fetch from './Fetch';
 
 const App = () => {
 
@@ -32,7 +33,8 @@ const App = () => {
 
     // <ContactForm/>
 
-    <Counter/>
+    // <Counter/>
+    <Fetch/>
   )
 }
 
