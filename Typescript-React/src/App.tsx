@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import {useState} from 'react'
 import UserProfile from './Components/UserProfile';
+import ContactForm from './Components/ContactForm';
 
 const App = () => {
 
@@ -20,13 +21,15 @@ const App = () => {
 
 
   return (
-    <div>
+    // <div>
       
-      name:{name}
-      <button onClick={() => name === 'Eugene' ? setname('Eugene Afriyie'): setname('Eugene')}>Change</button>
+    //   name:{name}
+    //   <button onClick={() => name === 'Eugene' ? setname('Eugene Afriyie'): setname('Eugene')}>Change</button>
 
-      <UserProfile userInfo={userInfo} />
-    </div>
+    //   <UserProfile userInfo={userInfo} />
+    // </div>
+
+    <ContactForm/>
   )
 }
 
