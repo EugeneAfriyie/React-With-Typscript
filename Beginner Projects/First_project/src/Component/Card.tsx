@@ -10,7 +10,7 @@ interface CardProps{
 
 const Card = ({title,description,image,link}:CardProps) => {
   return (
-    <div className=' max-w-sm mx-auto m-[1rem] bg-[#1A1C1E] rounded-lg shadow-md overflow-hidden'>
+    <div className=' max-w-sm mx-auto m-[1rem] rounded-lg shadow-md overflow-hidden'>
         <img src={image} alt={title} className='w-full h-40 object-cover' />
 
         <div className="p-6">
