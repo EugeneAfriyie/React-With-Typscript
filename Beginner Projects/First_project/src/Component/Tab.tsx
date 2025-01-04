@@ -6,6 +6,7 @@ import Card from "./Card";
 import About from "./About";
 import Contact from "./Contact";
 
+
 const tabs = [
   {
     id: "home",
