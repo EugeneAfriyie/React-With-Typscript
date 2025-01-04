@@ -28,7 +28,7 @@ const tabs = [
     id: "about",
     icon: <FaInfoCircle />,
     label: "About",
-    content: <About />,
+    content: <About/>,
   },
   {
     id: "projects",
