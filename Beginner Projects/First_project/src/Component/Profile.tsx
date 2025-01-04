@@ -48,8 +48,8 @@ const Profile = () => {
 
         {/* Channel Logo  */}
 
-        <div className="flex items-center m-4  mt-[2rem] border border-red-500 relative">
-                    <div className="flex items-center justify-center m-4 mt-[2rem] border border-red-500 relative">
+        <div className="flex items-center m-4  mt-[2rem] border 0 relative">
+                    <div className="flex items-center justify-center m-4 mt-[2rem]  relative">
             <img 
                 src={profileUrl} 
                 alt="profile img"

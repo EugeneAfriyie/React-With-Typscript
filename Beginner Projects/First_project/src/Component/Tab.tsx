@@ -82,7 +82,7 @@ const Tab = () => {
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            className={`flex-1 text-center py-2 px-4 font-medium text-sm ${
+            className={`flex-1 text-center py-2 px-4 font-medium text-sm border border-red-800 ${
               activeTab === tab.id ? "border-b-2 " : "text-gray-600"
             }`}
             onClick={() => setActiveTab(tab.id)}
@@ -94,6 +94,8 @@ const Tab = () => {
           </button>
         ))}
       </div>
+
+
       <div className="mt-4 p-4 rounded-lg">
         {tabs.find((tab) => tab.id === activeTab)?.content}
       </div>
