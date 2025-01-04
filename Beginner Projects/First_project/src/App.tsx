@@ -1,10 +1,13 @@
 import React from 'react'
 import Example from './Example'
+import Sidebar from './Component/Sidebar'
+import Profile from './Component/Profile'
 
 const App = () => {
   return (
     <div>
-      <Example/>
+     <Sidebar/>
+     <Profile/>
     </div>
   )
 }
