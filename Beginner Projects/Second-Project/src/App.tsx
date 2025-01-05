@@ -1,10 +1,17 @@
-export default function App() {
+import React from 'react'
+import Navigation from './Components/Navigation'
+
+const App = () => {
   return (
-    <h1 className="text-8xl font-bold underline
-    
-    [p-l;
-    ] text-center">
-      Hello world!
-    </h1>
+    <div>
+      <Navigation/>
+      <div className="flex justify-center">
+        {/* main area */}
+
+        <div className=""></div>
+      </div>
+    </div>
   )
 }
+ 
+export default App

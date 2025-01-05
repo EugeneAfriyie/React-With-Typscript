@@ -6,7 +6,7 @@ import Profile from './Component/Profile'
 const App = () => {
   return (
     <div>
-     <Sidebar/>
+     <Sidebar />
      <Profile/>
     </div>
   )
