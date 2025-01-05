@@ -6,6 +6,7 @@ import TopicsList from './Components/TopicsList'
 import { BlogProvider } from './Shared/BlogContextType'
 import { IoMdAddCircle } from 'react-icons/io'
 import { Blog } from './Components/types'
+import Modal from './Components/Modal'
 
 const App = () => {
 
