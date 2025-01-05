@@ -7,6 +7,7 @@ import { BlogProvider } from './Shared/BlogContextType'
 import { IoMdAddCircle } from 'react-icons/io'
 import { Blog } from './Components/types'
 import Modal from './Components/Modal'
+import BlogForm from './Components/BlogForm'
 
 const App = () => {
 
