@@ -14,7 +14,7 @@ const peopleToFollow:peopleToFollowProb[] = [
 
   { name: "Alena Gouse", following: false },
   { name: "Ruben Bator", following: true },
-  { name: "Aspen Stanton", following: false },
+  { name: "Aspen Stanton", following: true },
   { name: "Madelyn George", following: false },
 ];
 
