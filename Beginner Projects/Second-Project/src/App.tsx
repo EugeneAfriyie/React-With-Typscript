@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from './Components/Navigation'
 import PeolpleToFollow from './Components/PeopleToFollow'
 import TrendsList from './Components/TrandList'
+import TopicsList from './Components/TopicsList'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <div className="w-[30%]">
           <PeolpleToFollow/>
           <TrendsList/>
+          <TopicsList/>
         </div>
       </div>
     </div>
