@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from './Components/Navigation'
 import PeolpleToFollow from './Components/PeopleToFollow'
-import TrendsList from './Components/TrandList'
+import TrendsList from './Components/TrendList'
 import TopicsList from './Components/TopicsList'
 
 const App = () => {
