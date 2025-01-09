@@ -40,14 +40,14 @@ const App = () => {
 
             Article
 
-            {/* <ArticleList onEdit={openModalForEdit} /> */}
+            <ArticleList onEdit={openModalForEdit} />
               {isModalOpen && (
-                // <Modal onClose={() => setModalOpen(false)}>
-                //   {/* <BlogForm
-                //     existingBlog={editingBlog}
-                //     onClose={() => setModalOpen(false)}
-                //   /> */}
-                // </Modal>
+                <Modal onClose={() => setModalOpen(false)}>
+                  <BlogForm
+                    existingBlog={editingBlog}
+                    onClose={() => setModalOpen(false)}
+                  />
+                </Modal>
           </div>
         </section>
 
