@@ -1,3 +1,4 @@
+
 const Modal: React.FC<{ children: React.ReactNode; onClose: () => void }> = ({
     children,
     onClose,
