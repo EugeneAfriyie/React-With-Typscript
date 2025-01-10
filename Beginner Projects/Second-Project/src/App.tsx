@@ -1,16 +1,15 @@
-import React, { useState } from 'react'
-import Navigation from './Components/Navigation'
-import PeolpleToFollow from './Components/PeopleToFollow'
-import TrendsList from './Components/TrendList'
-import TopicsList from './Components/TopicsList'
-import { BlogProvider } from './Shared/BlogContextType'
-import { IoMdAddCircle } from 'react-icons/io'
-import { Blog } from './Components/types'
-import Modal from './Components/Modal'
-import BlogForm from './Components/BlogForm'
+import { useState } from "react";
+
+import { IoMdAddCircle } from "react-icons/io";
+import { BlogProvider } from "./Shared/BlogContextType";
+import Navigation from "./Components/Navigation";
+import { Blog } from "./Components/types";
+import PeopleToFollow from "./Components/PeopleToFollow";
+import TrendsList from "./Components/TrendList";
+import TopicsList from "./Components/TopicsList";
+import BlogForm from "./Components/BlogForm";
 
 const App = () => {
-
   const [isModalOpen, setModalOpen] = useState(false);
   const [editingBlog, setEditingBlog] = useState<Blog | null>(null);
 
@@ -23,24 +22,23 @@ const App = () => {
     setEditingBlog(blog);
     setModalOpen(true);
   };
+
   return (
     <div>
       <BlogProvider>
-      <Navigation/>
-      <div className="flex justify-center">
-        {/* main area */}
+        <Navigation />
 
-        <section className="mx-auto p-5  border-2">
-          <div className="">
-            <button onClick={openModalForNewBlog} className='ml-7 bg-black flex justify-center items-center text-white px-4 py-2 rounded mb-4'>
-              Add New Blog <IoMdAddCircle className='ml-[.5rem]'/>
-            </button>
+        <div className="flex justify-center">
+          <div className="mx-auto p-6">
+            <div>
+              <button
+                onClick={openModalForNewBlog}
+                className="ml-[7rem] bg-black flex justify-center items-center text-white px-4 py-2 rounded mb-4"
+              >
+                Add New Blog <IoMdAddCircle className="ml-[.5rem]" />
+              </button>
 
-
-
-            Article
-
-            <ArticleList onEdit={openModalForEdit} />
+              <ArticleList onEdit={openModalForEdit} />
               {isModalOpen && (
                 <Modal onClose={() => setModalOpen(false)}>
                   <BlogForm
@@ -48,18 +46,19 @@ const App = () => {
                     onClose={() => setModalOpen(false)}
                   />
                 </Modal>
+              )}
+            </div>
           </div>
-        </section>
 
-        <div className="w-[30%]">
-          <PeolpleToFollow/>
-          <TrendsList/>
-          <TopicsList/>
+          <div className="w-[30%]">
+            <PeopleToFollow />
+            <TrendsList />
+            <TopicsList />
+          </div>
         </div>
-      </div>
       </BlogProvider>
     </div>
-  )
-}
- 
-export default App
+  );
+};
+
+export default App;
