@@ -9,6 +9,7 @@ import TrendsList from "./Components/TrendList";
 import TopicsList from "./Components/TopicsList";
 import BlogForm from "./Components/BlogForm";
 import Modal from "./Components/Modal";
+import ArticleList from "./Components/ArticleList";
 
 const App = () => {
   const [isModalOpen, setModalOpen] = useState(false);
