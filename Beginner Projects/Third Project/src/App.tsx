@@ -1,12 +1,13 @@
-import React from 'react'
-import './App.css'
+import React from "react";
 
 const App = () => {
   return (
-    <div className='text-center inline-block now '>
-      <div >Eugene Afriyie</div>
+    <div className="relative overflow-hidden h-10">
+      <div className="absolute whitespace-nowrap animate-scroll text-green-700">
+        Eugene Afriyie
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
