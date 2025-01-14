@@ -6,7 +6,7 @@ export const data = [
       project: "AI Research Platform",
       progress: "10%",
       status: "Completed",
-      date: "10/06/2023",
+      date: "10/06/2024",
       image:
         "https://images.unsplash.com/photo-1526413232644-8a40f03cc03b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -17,7 +17,7 @@ export const data = [
       project: "Blockchain Development",
       progress: "20%",
       status: "In Progress",
-      date: "22/07/2023",
+      date: "22/07/2024",
       image:
         "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -28,7 +28,7 @@ export const data = [
       project: "E-Learning System",
       progress: "100%",
       status: "In Progress",
-      date: "30/08/2023",
+      date: "30/08/2024",
       image:
         "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -39,7 +39,7 @@ export const data = [
       project: "Mobile Payment App",
       progress: "50%",
       status: "In Progress",
-      date: "15/09/2023",
+      date: "15/09/2024",
       image:
         "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -50,7 +50,7 @@ export const data = [
       project: "Smart Home Automation",
       progress: "30%",
       status: "In Progress",
-      date: "05/07/2023",
+      date: "05/07/2024",
       image:
         "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -61,7 +61,7 @@ export const data = [
       project: "Virtual Reality Game",
       progress: "8%",
       status: "In Progress",
-      date: "23/06/2023",
+      date: "23/06/2024",
       image:
         "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?q=80&w=1995&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -72,7 +72,7 @@ export const data = [
       project: "E-Commerce Platform",
       progress: "60%",
       status: "In Progress",
-      date: "18/05/2023",
+      date: "18/05/2024",
       image:
         "https://images.unsplash.com/photo-1526510747491-58f928ec870f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -83,7 +83,7 @@ export const data = [
       project: "Tourism Website",
       progress: "80%",
       status: "Completed",
-      date: "12/08/2023",
+      date: "12/08/2024",
       image: "https://example.com/images/noah.jpg",
     },
     {
@@ -93,7 +93,7 @@ export const data = [
       project: "Healthcare App",
       progress: "90%",
       status: "In Progress",
-      date: "27/09/2023",
+      date: "27/09/2024",
       image:
         "https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -104,7 +104,7 @@ export const data = [
       project: "Agritech Platform",
       progress: "100%",
       status: "In Progress",
-      date: "09/09/2023",
+      date: "09/09/2024",
       image:
         "https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -115,7 +115,7 @@ export const data = [
       project: "AI Assistant",
       progress: "20%",
       status: "In Progress",
-      date: "01/08/2023",
+      date: "01/08/2024",
       image:
         "https://images.unsplash.com/photo-1632765854612-9b02b6ec2b15?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -126,7 +126,7 @@ export const data = [
       project: "Cloud Storage Solution",
       progress: "10%",
       status: "In Progress",
-      date: "20/07/2023",
+      date: "20/07/2024",
       image:
         "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -137,7 +137,7 @@ export const data = [
       project: "IoT Device Integration",
       progress: "70%",
       status: "Completed",
-      date: "29/06/2023",
+      date: "29/06/2024",
       image:
         "https://images.unsplash.com/photo-1509783236416-c9ad59bae472?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
@@ -148,7 +148,7 @@ export const data = [
       project: "Financial Analytics Tool",
       progress: "90%",
       status: "In Progress",
-      date: "13/09/2023",
+      date: "13/09/2024",
       image:
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
