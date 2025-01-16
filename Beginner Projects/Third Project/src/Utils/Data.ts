@@ -153,14 +153,14 @@ export const data = [
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      client: "Euhene Afriyie",
+      client: "Eugene Afriyie",
       country: "GNANA",
       email: "groupeight00n@gmail.com",
       project: "Financial Freedom",
       progress: "10%",
       status: "In Progress",
-      date: "17/16/2025",
+      date: "16/01/2025",
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://avatars.githubusercontent.com/u/164704347?v=4",
     },
   ];
