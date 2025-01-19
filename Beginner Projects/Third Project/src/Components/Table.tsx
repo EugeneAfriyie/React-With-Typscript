@@ -3,7 +3,7 @@ import { BsThreeDots } from "react-icons/bs";
 import { BiSort } from "react-icons/bi";
 import { MdSort } from "react-icons/md";
 import { AiOutlineDown } from "react-icons/ai";
-import { data } from "../utils/data";
+import { data } from "../Utils/Data";
 
 const ProjectTable = () => {
   const [projects, setProjects] = useState(data);
